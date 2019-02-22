@@ -1,6 +1,6 @@
 # reviews
 
-[Посмотреть готовую сборку](https://mentar123.github.io/car-module-test/)
+[Посмотреть готовую сборку](https://mentar123.github.io/Reviews-build/)
 
 ## Project setup
 ```
