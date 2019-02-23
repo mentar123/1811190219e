@@ -57,12 +57,16 @@ export default {
 </script>
 
 <style scoped>
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 .info-name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 10px;
-    
 }
 .info-name h3{
    font-size: 16px;
@@ -116,7 +120,6 @@ export default {
 .service-wrapper h3{
     font-size: 13px;
     margin-bottom: 5px;
-
 }
 .services{
     padding-top: 10px;
