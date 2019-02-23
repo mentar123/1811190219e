@@ -57,11 +57,6 @@ export default {
 </script>
 
 <style scoped>
-.info{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
 .info-name{
     display: flex;
     flex-direction: column;
@@ -93,7 +88,6 @@ export default {
     border-radius: 10px;
     transform: translateX(-62px);
     line-height: 1.2;
-
 }
 .avatar{
     min-width: 120px;
@@ -131,7 +125,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 .warpper{
     display: flex;
@@ -164,7 +157,6 @@ export default {
     background-color: #b1e19b;
     border-top-color:  #b1e19b;
     border-bottom-color:#b1e19b ;
-   
 }
 .manual-reservation::before{
     content: "";

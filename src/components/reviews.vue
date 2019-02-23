@@ -63,9 +63,9 @@ methods:{
     if(this.textArea == ""){
       alert("Введите сообщение");
     }else{
-    this.userMsg = new this.Msg(this.textArea,"vas9",this.$moment().local('ru').format('LL'));
-    this.msgArr.push(this.userMsg)
-    this.textArea ="";
+      this.userMsg = new this.Msg(this.textArea,"vas9",this.$moment().local('ru').format('LL'));
+      this.msgArr.push(this.userMsg)
+      this.textArea ="";
       }
    }
   }
@@ -104,7 +104,6 @@ methods:{
     width: 100%;
     margin: 20px 0;
     font-size: 14px;
-    
   }
   .name{
     font-weight: bold;
@@ -127,7 +126,6 @@ methods:{
     align-items: center;
   }
   .text-area textarea{
-    
     height: 25%;
     width: 100%;
   }

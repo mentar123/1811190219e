@@ -62,7 +62,7 @@ table {
 }
 #app {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
